@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "name": "WaveDefenseActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "360c78b6-49be-4506-86a2-fe4fee15d7d4",
+            "actions": [
+                {
+                    "name": "AttackLeft",
+                    "type": "Button",
+                    "id": "8a5183f0-7b4a-48e6-86db-8377282b38b0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AttackRight",
+                    "type": "Button",
+                    "id": "b6509a41-d3df-43cc-b0a7-02a4d878119f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "61a6f8c7-de1a-4d82-9e22-b66bd1d9817b",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AttackLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "021f4b6a-7b0d-4066-b4e1-0d89bbf7e01e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AttackLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0cb185f-dfce-4b24-9fda-7f1940f7d33b",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AttackRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8a71216-2d6d-4cdc-a635-5d5ee5c76069",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AttackRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
